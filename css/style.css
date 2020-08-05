@@ -1,0 +1,2565 @@
+.clear{
+    clear: both;
+}
+
+header{
+    width: 100%;
+    height: 680px;
+    background-color: #000000;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 9vw;
+    float: left;
+    animation: crescendo 1.5s alternate infinite ease-in;
+}
+
+@keyframes crescendo {
+    0%   {transform: scale(.8);}
+    100% {transform: scale(1.5);}
+  }
+
+ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul li{
+    float: left;
+    margin-left: 7vw;
+    margin-top: 40px;
+}
+
+ul{
+    float: left;
+    margin-left: 13.5vw;
+}
+
+.login{
+    font-weight: bold;
+    float: left;
+}
+
+.loginicon{
+    margin-right: 15px;
+    float: left;
+    margin-top: -8px;
+}
+
+ul li:nth-child(4){
+    margin-top: 40px;
+    margin-left: 15vw;
+}
+
+.left{
+    float: left;
+    width: 45%;
+}
+
+h2{
+    color: #ED2517;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.right{
+    float: right;
+    background-image:url(../img/stranger.jpeg),linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.329) 30%);
+    background-blend-mode: overlay;
+    width: 55%;
+    height: 580px;
+    background-size: cover;
+}
+
+.trailerbutton{
+    margin-top: 255px;
+    margin-left: 24vw;
+    float: left;
+    margin-right: 20px;
+}
+
+.trailerfont{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 2px 2px #000000;
+    margin-top: 290px;
+    width: auto;
+    line-height: normal;
+    margin-left: 0;
+}
+
+.ui-button{
+    background-color: transparent;
+    color: #ffffff;
+    border: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    float: right;
+    margin-right: 310px;
+    margin-top: 70px;
+}
+
+.ui-dialog-titlebar{
+    background-color: #1d1d1d;
+    height: 120px;
+}
+
+.ui-dialog-content{
+    background-color: #1d1d1d;
+}
+
+.ui-widget-overlay {
+    background-color: #1d1d1d;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 1;
+    filter: Alpha(Opacity=50);
+}
+
+.ui-front {
+    z-index: 100;
+}
+
+.ui-dialog {
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+}
+
+#dialog{
+    padding: 0;
+    margin: 0; 
+}
+
+h2{
+    color: #ED2517;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-left: 10vw;
+    margin-top: 100px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 10vw;
+    margin-top: 20px;
+    line-height: 50px;
+}
+
+p{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-left: 10vw;
+    margin-top: 20px;
+    width: 310px;
+    line-height: 21px;
+    margin-bottom: 60px;
+}
+
+.trybtn{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10vw;
+    text-decoration: none;
+    background-color: #ED2517;
+    padding: 10px 30px;
+}
+
+main{
+    width: 100%;
+    height: 880px;
+    background-color: #ffffff;
+}
+
+.h2main{
+    margin-left: 40.5vw;
+}
+
+.h1main{
+    margin-left: 37.5vw;
+    color: #000000;
+    text-align: center;
+    width: 400px;
+}
+
+.videovak{
+    width: 100%;
+    height: 500px;
+}
+
+.vids{
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.75);
+    position: absolute;
+}
+
+.video-js .vjs-big-play-button{
+    display: none;
+}
+
+.video-js .vjs-control-bar{
+    background-color: transparent;
+}
+
+.video-js .vjs-play-control{
+    display: none;
+}
+
+.video-js .vjs-volume-panel{
+    display: none;
+}
+
+.video-js .vjs-picture-in-picture-control{
+    display: none;
+}
+
+.video-js .vjs-fullscreen-control{
+    display: none;
+}
+
+.video-js .vjs-time-control{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 27px;
+    letter-spacing: 1.5px;
+    padding-left: 0.5em;
+    padding-right: 1.5em;
+}
+
+.video-js .vjs-progress-control .vjs-progress-holder{
+    margin: 0 5px 0 50px;
+}
+
+.video-js .vjs-slider{
+    background-color: #ffffff;
+}
+
+.video-js .vjs-load-progress{
+    background: #ffffff;
+}
+
+.video-js .vjs-load-progress div{
+    background: #ffffff;
+}
+
+.video-js .vjs-progress-control:hover .vjs-time-tooltip{
+    display: none;
+}
+
+.video-js .vjs-play-progress:before{
+    color: #ED2517;
+    font-size: 20px;
+    top: -8px;
+}
+
+#vid1{
+    background-image: url(../img/irishman.jpg);
+    width: 536px;
+    height: 301px;
+    z-index: 2;
+    margin-top: 102px;
+    margin-left: 9vw;
+}
+
+#vid2{
+    width: 720px;
+    height: 405px;
+    z-index: 3;
+    margin-top: 50px;
+    margin-left: 27vw;
+}
+
+#vid2 .my-video-dimensions{
+    width: 720px;
+    height: 405px;
+}
+
+#vid4{
+    width: 900px;
+    height: 506.25px;
+    margin-left: 20vw;
+}
+
+#vid4 .playbtn{
+    margin-left: 420px;
+    margin-top: -310px;
+}
+
+#vid3{
+    background-image: url(../img/ozark.jpg);
+    width: 536px;
+    height: 301px;
+    z-index: 2;
+    margin-top: 102px;
+    margin-left: 57vw;
+}
+
+#vid2 .forwardbtn{
+    margin-top: -240px;
+    margin-left: 430px;
+}
+
+.video-js{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.playbtn{
+    margin-left: 224px;
+    position: absolute;
+    margin-top: -210px;
+    display: inline-block;
+}
+
+.forwardbtn{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 340px;
+    display: none;
+}
+
+.vidbtns{
+    display: none;
+}
+
+#vid4 .forwardbtn{
+    margin-left: 550px;
+    margin-top: -295px;
+}
+
+.imgplaybtn{
+    margin-top: 0px;
+}
+
+#vid2 .playbtn{
+    margin-left: 316px;
+    margin-top: -255px;
+}
+
+.pmain{
+    color: #000000;
+    text-align: center;
+    width: 470px;
+    margin-left: 34vw;
+}
+
+#btnmain{
+    margin-left: 45.5vw;
+}
+
+footer{
+    background-color: #000000;
+    width: 100%;
+    height: 880px;
+}
+
+.h1footer{
+    padding-top: 70px;
+    margin-left: 31vw;
+}
+
+.tabsvak{
+    padding-left: 30vw;
+}
+
+.ui-tabs ul{
+    margin-left: 0px;
+}
+
+.ui-tabs ul li:nth-child(1){
+    margin-left: 0px;
+}
+
+.ui-tabs ul li{
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 0px;
+    padding-top: 25px;
+}
+
+.ui-tabs ul li a{
+    font-weight: bold;
+}
+
+.ui-tabs p{
+    margin-left: 0px;
+}
+
+.ui-tabs-panel{
+    background-color: #4B4B4B;
+    height: 600px;
+}
+
+.ui-tabs .ui-tabs-nav{
+    background-color: #000000;
+}
+
+#tabs{
+    width: 630px;
+    margin-top: 50px;
+}
+
+#ui-id-1{
+    margin-left: 53px;
+}
+
+#ui-id-2{
+    margin-left: 37px;
+}
+
+#ui-id-3{
+    margin-left: 37px;
+}
+
+.ui-tabs-active{
+    background-color: #1d1d1d;
+    border-bottom: 5px solid #ED2517;
+    outline: 0px;
+}
+
+.ui-tabs-active a{
+    outline: 0px;
+    border: 0px;
+}
+
+.ui-tabs-anchor{
+    outline: 0px;
+    border: 0px;
+}
+
+.ui-tabs-tab{
+    outline: 0px;
+}
+
+.lefttext{
+    width: 280px;
+    float: left;
+}
+
+.pleft{
+    text-align: right;
+    margin-right: 20px;
+    width: 280px;
+    margin-bottom: 0px;
+    line-height: 40px;
+}
+
+.righttext{
+    width: 280px;
+    float: right;
+}
+
+.pright{
+    font-weight: bold;
+    color: #ED2517;
+    margin-bottom: 0px;
+    line-height: 40px;
+}
+
+.checkmark{
+    margin-top: 30px;
+}
+
+.checkmark2{
+    margin-top: 45px;
+}
+
+@media only screen and (max-width: 1500px){
+    #vid1{
+        margin-left: 6vw;
+    }
+
+    #vid3{
+        margin-left: 57vw;
+    }
+
+    #vid2{
+        margin-left: 25vw;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    #vid1{
+        width: 500px;
+        height: 281px;
+    }
+
+    .my-video1-dimensions{
+        width: 500px;
+        height: 281px;
+    }
+
+    .my-video3-dimensions{
+        width: 500px;
+        height: 281px;
+    }
+
+    #vid3{
+        width: 500px;
+        height: 281px;
+    }
+
+    #vid2{
+        width: 683px;
+        height: 385px;
+    }
+
+    .my-video2-dimensions{
+        width: 683px;
+        height: 385px;
+    }
+
+    .playbtn{
+        margin-left: 210px;
+        margin-top: -200px;
+    }
+
+    .forwardbtn{
+        margin-left: 315px;
+        margin-top: -190px;
+    }
+
+    #vid2 .playbtn{
+        margin-left: 300px;
+        margin-top: -250px;
+    }
+
+    #vid2 .forwardbtn{
+        margin-top: -235px;
+        margin-left: 415px;
+    }
+
+    .h1footer{
+        margin-left: 29vw;
+    }
+
+    .tabsvak{
+        padding-left: 29vw;
+    }
+
+    #vid4{
+        margin-left: 18vw;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    .h2main{
+        margin-left: 37vw;
+    }
+
+    .h1main{
+        margin-left: 33.5vw
+    }
+
+    #vid1{
+        width: 463px;
+        height: 261px;
+    }
+
+    .my-video1-dimensions{
+        width: 463px;
+        height: 261px;
+    }
+
+    .my-video3-dimensions{
+        width: 463px;
+        height: 261px;
+    }
+
+    #vid3{
+        width: 463px;
+        height: 261px;
+    }
+
+    #vid2{
+        width: 648px;
+        height: 365px;
+        margin-left: 24.5vw;
+    }
+
+    .my-video2-dimensions{
+        width: 648px;
+        height: 365px;
+    }
+
+    .playbtn{
+        margin-left: 195px;
+        margin-top: -190px;
+    }
+
+    .forwardbtn{
+        margin-left: 300px;
+        margin-top: -180px;
+    }
+
+    #vid2 .playbtn{
+        margin-left: 280px;
+        margin-top: -245px;
+    }
+
+    #vid2 .forwardbtn{
+        margin-top: -230px;
+        margin-left: 395px;
+    }
+
+    .pmain{
+        margin-left: 31vw;
+        margin-top: -20px;
+    }
+
+    .h1footer{
+        margin-left: 25vw;
+    }
+
+    .tabsvak{
+        padding-left: 25vw;
+    }
+
+    #vid4{
+        margin-left: 13vw;
+    }
+
+    .ui-button{
+        float: none;
+        margin-left: 1030px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #vid1{
+        margin-top: 50px;
+        margin-left: 30vw;
+    }
+
+    #vid3{
+       margin-top: 420px;
+       margin-left: 30vw;
+    }
+
+    #vid2{
+        margin-top: 180px;
+        margin-left: 22vw;
+    }
+
+    .pmain{
+        margin-top: 220px;
+        margin-left: 29vw;
+    }
+
+    #btnmain{
+        margin-left: 43vw;
+    }
+
+    main{
+        height: 1000px;
+    }
+
+    .h2main{
+        margin-left: 36vw;
+    }
+
+    .h1main{
+        margin-left: 32.5vw
+    }
+
+    #vid4{
+        width: 715px;
+        height: 400px;
+        margin-left: 17vw;
+        margin-top: 60px;
+    }
+
+    .my-video4-dimensions{
+        width: 715px;
+        height: 400px;
+    }
+
+    .ui-button{
+        margin-left: 890px;
+        margin-top: 100px;
+    }
+
+    #vid4 .playbtn{
+        margin-left: 320px;
+        margin-top: -255px;
+    }
+
+    #vid4 .forwardbtn{
+        margin-left: 440px;
+        margin-top: -248px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    h1{
+        font-size: 30px;
+    }
+
+    .h2main{
+        margin-left: 36vw;
+    }
+
+    .h1main{
+        margin-left: 32vw;
+    }
+
+    #vid2{
+        margin-left: 20vw;
+    }
+
+    #btnmain{
+        margin-left: 45vw;
+    }
+
+    .tabsvak{
+        padding-left: 22vw;
+    }
+
+    #vid4{
+        margin-left: 15vw;
+    }
+
+    .ui-button{
+        margin-left: 840px;
+    }
+}
+
+@media only screen and (max-width: 1035px){
+    h1{
+        font-size: 29px;
+    }
+}
+
+@media only screen and (max-width: 1010px){
+    .logo{
+        margin-left: 6vw;
+    }
+
+    h2{
+        margin-left: 6vw;
+    }
+
+    h1{
+        margin-left: 6vw;
+    }
+
+    p{
+        margin-left: 6vw;
+    }
+
+    .trybtn{
+        margin-left: 6vw;
+    }
+
+    ul{
+        margin-left: 10vw;
+    }
+
+    .h2main{
+        margin-left: 34vw;
+    }
+
+    .h1main{
+        margin-left: 30vw
+    }
+
+    #vid1{
+        margin-left: 27vw;
+    }
+
+    #vid3{
+        margin-left: 27vw;
+    }
+
+    #vid2{
+        margin-left: 16vw;
+    }
+
+    .pmain{
+        margin-left: 26vw;
+    }
+
+    #btnmain{
+        margin-left: 43vw;
+    }
+
+    .h1footer{
+        margin-left: 22vw;
+    }
+
+    .tabsvak{
+        padding-left: 18.5vw;
+    }
+
+    #vid4{
+        margin-left: 12vw;
+    }
+
+    .ui-button{
+        margin-left: 800px;
+    }
+}
+
+@media only screen and (max-width: 940px){
+    #vid4{
+        height: 350px;
+        width: 622px;
+        margin-left: 14vw;
+    }
+
+    .my-video4-dimensions{
+        height: 350px;
+        width: 622px;
+    }
+
+    .ui-button{
+        margin-left: 720px;
+    }
+
+    #vid4 .playbtn{
+        margin-left: 275px;
+        margin-top: -240px;
+    }
+
+    #vid4 .forwardbtn{
+        margin-left: 390px;
+        margin-top: -230px
+    }
+}
+
+@media only screen and (max-width: 900px){
+    h1{
+        font-size: 28px;
+    }
+
+    .h2main{
+        margin-left: 34vw;
+    }
+
+    .h1main{
+        margin-left: 29vw;
+    }
+
+    #btnmain{
+        margin-left: 45vw;
+    }
+
+    .tabsvak{
+        padding-left: 16vw;
+    }
+}
+
+@media only screen and (max-width: 880px){
+    h2{
+        margin-left: 3vw;
+        margin-top: 70px;
+    }
+
+    h1{
+        margin-left: 3vw;
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    p{
+        margin-left: 3vw;
+    }
+
+    .trybtn{
+        margin-left: 3vw;
+    }
+
+    ul{
+        margin-left: 8vw;
+    }
+
+    header{
+        height: 630px;
+    }
+
+    .right{
+        height: 530px;
+    }
+
+    .trailerbutton{
+        margin-top: 220px;
+        margin-left: 22vw;
+    }
+
+    .trailerfont{
+        margin-top: 255px;
+    }
+
+    #vid1{
+        margin-left: 28vw;
+        width: 392px;
+        height: 221px;
+    }
+
+    .my-video1-dimensions{
+        width: 392px;
+        height: 221px;
+    }
+
+    #vid3{
+        margin-left: 28vw;
+        width: 392px;
+        height: 221px;
+    }
+
+    .my-video3-dimensions{
+        width: 392px;
+        height: 221px;
+    }
+
+    #vid2{
+        margin-left: 16vw;
+        width: 578px;
+        height: 325px;
+    }
+
+    .my-video2-dimensions{
+        width: 578px;
+        height: 325px;
+    }
+
+    .imgplaybtn{
+        width: 80px;
+    }
+
+    .playbtn{
+        margin-left: 165px;
+        margin-top: -165px;
+    }
+
+    .imgforwardbtn{
+        width: 55px;
+    }
+
+    .forwardbtn{
+        margin-left: 260px;
+        margin-top: -155px;
+    }
+
+    #vid2 .playbtn{
+        margin-left: 250px;
+        margin-top: -220px;
+    }
+
+    #vid2 .forwardbtn{
+        margin-left: 355px;
+        margin-top: -210px;
+    }
+
+    .pmain{
+        margin-left: 24vw;
+        margin-top: 180px;
+    }
+
+    .h2main{
+        margin-left: 32.5vw;
+    }
+
+    .h1main{
+        margin-left: 27.5vw
+    }
+
+    .h1footer{
+        margin-left: 21vw;
+    }
+
+    #tabs{
+        width: 600px;
+    }
+
+    .ui-tabs ul li{
+        margin-left: 75px;
+    }
+
+    .tabsvak{
+        padding-left: 15vw;
+    }
+
+    .ui-tabs-panel{
+        height: 520px;
+    }
+
+    footer{
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    ul li{
+        margin-left: 5.5vw;
+    }
+
+    #vid4{
+        margin-left: 10vw;
+    }
+
+    .ui-button{
+        margin-left: 670px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    #vid1{
+        margin-left: 25vw;
+    }
+
+    #vid3{
+        margin-left: 25vw;
+    }
+
+    #vid2{
+        margin-left: 13vw;
+    }
+
+    .pmain{
+        margin-left: 20vw;
+    }
+
+    #btnmain{
+        margin-left: 43vw;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    h1{
+        font-size: 26px;
+    }
+
+    .trailerfont{
+        margin-top: 247px;
+    }
+
+    .h2main{
+        margin-left: 30vw;
+    }
+
+    .h1main{
+        margin-left: 24vw;
+    }
+
+    @keyframes crescendo {
+        0%   {transform: scale(.6);}
+        100% {transform: scale(1);}
+    }
+
+    .h1footer{
+        margin-left: 18vw;
+    }
+
+    #tabs{
+        width: 550px;
+    }
+
+    .ui-tabs ul li{
+        margin-left: 50px;
+    }
+
+    .tabsvak{
+        padding-left: 14vw;
+    }
+
+    .lefttext{
+        width: 250px;
+    }
+
+    .pleft{
+        width: 250px;
+    }
+
+    .righttext{
+        width: 250px;
+    }
+
+    .pright{
+        width: 250px;
+    }
+
+    #vid4{
+        height: 300px;
+        width: 533px;
+        margin-left: 15vw;
+    }
+
+    .my-video4-dimensions{
+        height: 300px;
+        width: 533px;
+    }
+
+    .ui-button{
+        margin-left: 620px;
+    }
+
+    #vid4 .playbtn{
+        margin-left: 230px;
+        margin-top: -200px;
+    }
+
+    #vid4 .forwardbtn{
+        margin-left: 340px;
+        margin-top: -193px;
+    }
+}
+
+@media only screen and (max-width: 755px){
+    .logo{
+        margin-left: 4vw;
+    }
+
+    ul{
+        margin-left: 5vw;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    p{
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width: 725px){
+    h1{
+        font-size: 24px;
+    }
+
+    #vid1{
+        margin-left: 20vw;
+    }
+
+    #vid3{
+        margin-left: 20vw;
+    }
+
+    #vid2{
+        margin-left: 7vw;
+    }
+
+    .pmain{
+        margin-left: 14.5vw;
+    }
+
+    #btnmain{
+        margin-left: 38vw;
+    }
+
+    .h2main{
+        margin-left: 25vw;
+    }
+
+    .h1main{
+        margin-left: 20vw
+    }
+
+    #tabs{
+        width: 520px;
+    }
+
+    .ui-tabs ul li{
+        margin-left: 35px;
+    }
+
+    #vid4{
+        margin-left: 12vw;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    ul li:nth-child(4){
+        margin-left: 8vw;
+    }
+    
+    h1{
+        font-size: 23px;
+    }
+
+    h2{
+        margin-top: 60px;
+    }
+
+    header{
+        height: 580px;
+    }
+
+    .right{
+        height: 480px;
+    }
+
+    .trailerbutton{
+        margin-top: 180px;
+    }
+
+    .trailerfont{
+        margin-top: 208px;
+    }
+
+    #tabs{
+        width: 500px;
+    }
+
+    .ui-tabs ul li{
+        margin-left: 25px;
+    }
+
+    .ui-tabs ul li a{
+        font-size: 15px;
+    }
+
+    .tabsvak{
+        padding-left: 11vw;
+    }
+
+    .lefttext{
+        width: 230px;
+    }
+
+    .pleft{
+        width: 230px;
+    }
+
+    .righttext{
+        width: 230px;
+    }
+
+    .pright{
+        width: 230px;
+    }
+
+    #vid4{
+        margin-left: 10vw;
+    }
+
+    .ui-button{
+        margin-left: 570px;
+    }
+}
+
+@media only screen and (max-width: 665px){
+    h1{
+        font-size: 22px;
+    }
+
+    p{
+        width: 250px;
+        margin-bottom: 40px;
+    }
+
+    .trybtn{
+        font-size: 14px;
+    }
+
+    #vid2{
+        height: 300px;
+        width: 531px;
+        margin-left: 10vw;
+    }
+
+    .my-video2-dimensions{
+        height: 300px;
+        width: 531px;
+    }
+
+    #vid2 .playbtn{
+        margin-left: 230px;
+        margin-top: -210px;
+    }
+
+    #vid2 .forwardbtn{
+        margin-left: 335px;
+        margin-top: -200px;
+    }
+
+    #vid3{
+        margin-top: 390px;
+    }
+
+    .pmain{
+        margin-top: 150px;
+    }
+
+    main{
+        height: 930px;
+    }
+
+    #vid4{
+        margin-left: 7vw;
+    }
+
+    .ui-button{
+        margin-left: 550px;
+    }
+}
+
+@media only screen and (max-width: 635px){
+    h1{
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .logo{
+        margin-left: 3vw;
+    }
+
+    ul{
+        margin-left: 0vw;
+    }
+
+    #vid1{
+        margin-left: 16vw;
+    }
+
+    #vid2{
+        margin-left: 6vw;
+    }
+
+    #vid3{
+        margin-left: 16vw;
+    }
+    
+    .pmain{
+        width: 420px;
+    }
+
+    #btnmain{
+        margin-left: 37vw;
+    }
+
+    .h2main{
+        margin-left: 23vw;
+    }
+
+    .h1main{
+        margin-left: 15vw
+    }
+
+    .h1footer{
+        margin-left: 17vw;
+    }
+
+    #tabs{
+        width: 460px;
+    }
+
+    .ui-tabs ul li{
+        margin-left: 5px;
+    }
+
+    .tabsvak{
+        padding-left: 12vw;
+    }
+
+    .lefttext{
+        width: 210px;
+    }
+
+    .pleft{
+        width: 210px;
+    }
+
+    .righttext{
+        width: 210px;
+    }
+
+    .pright{
+        width: 210px;
+    }
+}
+
+@media only screen and (max-width: 610px){
+    h1{
+        font-size: 20px;
+    }
+
+    p{
+        width: 230px;
+    }
+
+    .trailerbutton{
+        margin-left: 19vw;
+    }
+
+    #vid1{
+        width: 358px;
+        height: 201px;
+        margin-left: 18vw;
+    }
+
+    .my-video1-dimensions{
+        width: 358px;
+        height: 201px;
+    }
+
+    #vid3{
+        width: 358px;
+        height: 201px;
+        margin-left: 18vw;
+        margin-top: 370px;
+    }
+
+    .my-video3-dimensions{
+        width: 358px;
+        height: 201px;
+    }
+
+    #vid2{
+        width: 460px;
+        height: 260px;
+        margin-left: 9vw;
+    }
+
+    .my-video2-dimensions{
+        width: 460px;
+        height: 260px;
+    }
+
+    .playbtn{
+        margin-left: 142px;
+        margin-top: -155px;
+    }
+
+    .forwardbtn{
+        margin-left: 240px;
+        margin-top: -145px;
+    }
+
+    #vid2 .playbtn{
+        margin-left: 190px;
+        margin-top: -190px;
+    }
+
+    #vid2 .forwardbtn{
+        margin-left: 295px;
+        margin-top: -180px;
+    }
+
+    .pmain{
+        margin-top: 110px;
+        margin-left: 13vw;
+    }
+
+    main{
+        height: 900px;
+    }
+
+    #vid4{
+        height: 250px;
+        width: 447px;
+        margin-left: 12vw;
+    }
+
+    .my-video4-dimensions{
+        height: 250px;
+        width: 447px;
+    }
+
+    .ui-button{
+        margin-right: 80vw;
+    }
+
+    .ui-button{
+        margin-left: 490px;
+    }
+
+    #vid4 .playbtn{
+        margin-left: 190px;
+        margin-top: -185px;
+    }
+
+    #vid4 .forwardbtn{
+        margin-left: 290px;
+        margin-top: -175px;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    h1{
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    h2{
+        margin-top: 40px;
+    }
+
+    .trailerbutton{
+        margin-top: 150px;
+    }
+
+    .trailerfont{
+        margin-top: 177px;
+        font-size: 14px;
+    }
+
+    header{
+        height: 500px;
+    }
+
+    .right{
+        height: 420px;
+    }
+
+    ul li a{
+        font-size: 14px;
+    }
+
+    @keyframes crescendo {
+        0%   {transform: scale(.5);}
+        100% {transform: scale(.8);}
+      }
+
+    .logo{
+        margin-top: 20px;
+    }
+
+    nav{
+        height: 80px;
+    }
+
+    ul li{
+        margin-top: 30px;
+    }
+
+    ul li:nth-child(4){
+        margin-top: 34px;
+    }
+
+    .loginicon{
+        width: 20px;
+    }
+
+    p{
+        width: 210px;
+    }
+
+    .h2main{
+        margin-left: 20vw;
+    }
+
+    .h1main{
+        margin-left: 13vw;
+    }
+
+    #vid1{
+        margin-left: 16vw;
+    }
+
+    #vid3{
+        margin-left: 16vw;
+    }
+
+    #vid2{
+        margin-left: 7vw;
+    }
+
+    .pmain{
+        width: 300px;
+        margin-left: 21vw;
+    }
+
+    .tabsvak{
+        padding-left: 9vw;
+    }
+
+    #vid4{
+        margin-left: 10vw;
+    }
+}
+
+@media only screen and (max-width: 555px){
+    h1{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .trybtn{
+        font-size: 13px;
+    }
+
+    .tabsvak{
+        padding-left: 9vw;
+    }
+
+    #tabs{
+        width: 430px;
+    }
+
+    .ui-tabs ul li{
+        margin-left: 35px;
+        width: 120px;
+    }
+
+    #ui-id-1{
+        margin-left: 40px;
+    }
+
+    #ui-id-2{
+        margin-left: 23px;
+    }
+
+    #ui-id-3{
+        margin-left: 25px;
+    }
+
+    .lefttext{
+        width: 200px;
+    }
+
+    .pleft{
+        width: 200px;
+    }
+
+    .righttext{
+        width: 200px;
+    }
+
+    .pright{
+        width: 200px;
+    }
+
+    #vid4{
+        margin-left: 7vw;
+    }
+
+    .ui-button{
+        margin-left: 460px;
+    }
+}
+
+@media only screen and (max-width: 525px){
+    h1{
+        font-size: 17px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    .logo{
+        margin-left: 1vw;
+    }
+
+    ul li:nth-child(1){
+        margin-left: 20px;
+    }
+
+    .trailerbutton{
+        margin-left: 17vw;
+    }
+
+    .loginicon{
+        margin-right: 10px;
+    }
+
+    .h2main{
+        margin-left: 17vw;
+    }
+
+    .h1main{
+        margin-left: 8vw;
+    }
+
+    #vid1{
+        margin-left: 12vw;
+    }
+
+    #vid3{
+        margin-left: 12vw;
+    }
+
+    #vid2{
+        margin-left: 3vw;
+    }
+
+    .pmain{
+        margin-left: 18vw;
+    }
+
+    .tabsvak{
+        padding-left: 5vw;
+    }
+
+    #vid4{
+        margin-left: 4vw;
+    }
+
+    .ui-button{
+        margin-left: 440px;
+    }
+}
+
+@media only screen and (max-width: 509px){
+    #vid1{
+        width: 302px;
+        height: 170px;
+        margin-left: 16vw;
+    }
+
+    .my-video1-dimensions{
+        width: 302px;
+        height: 170px;
+    }
+
+    #vid3{
+        width: 302px;
+        height: 170px;
+        margin-left: 16vw;
+        margin-top: 370px;
+    }
+
+    .my-video3-dimensions{
+        width: 302px;
+        height: 170px;
+    }
+
+    #vid2{
+        width: 408px;
+        height: 230px;
+        margin-left: 6vw;
+    }
+
+    .my-video2-dimensions{
+        width: 408px;
+        height: 230px;
+    }
+
+    .playbtn{
+        margin-left: 122px;
+        margin-top: -135px;
+    }
+
+    .forwardbtn{
+        margin-left: 210px;
+        margin-top: -127px;
+    }
+
+    #vid2 .playbtn{
+        margin-left: 170px;
+        margin-top: -170px;
+    }
+
+    #vid2 .forwardbtn{
+        margin-left: 260px;
+        margin-top: -160px;
+    }
+
+    .imgplaybtn{
+        width: 70px;
+    }
+    
+    .imgforwardbtn{
+        width: 45px;
+    }
+}
+
+@media only screen and (max-width: 499px){
+    .tabsvak{
+        padding-left: 8vw;
+    }
+
+    .vidbtns{
+        display: inline-block;
+    }
+
+    #tabs{
+        width: 390px;
+    }
+
+    .ui-tabs ul li{
+        margin-left: 45px;
+        width: 100px;
+        padding-top: 15px;
+    }
+
+    #ui-id-1{
+        margin-left: 32px;
+    }
+
+    #ui-id-2{
+        margin-left: 20px;
+    }
+
+    #ui-id-3{
+        margin-left: 20px;
+    }
+
+    .lefttext{
+        width: 180px;
+    }
+
+    .pleft{
+        width: 180px;
+        font-size: 12px;
+    }
+
+    .righttext{
+        width: 180px;
+        font-size: 12px;
+    }
+
+    .pright{
+        width: 180px;
+    }
+    
+    .ui-tabs ul li a {
+        font-size: 13px;
+    }
+
+    ul li a{
+        font-size: 13px;
+    }
+
+    ul li{
+        margin-left: 17px;
+    }
+
+    .trailerbutton{
+        width: 75px;
+        margin-right: 10px;
+    }
+
+    .h2main{
+        width: 320px;
+    }
+
+    .h1footer{
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #vid4{
+        height: 220px;
+        width: 391px;
+        margin-left: 7vw;
+    }
+
+    .my-video4-dimensions{
+        height: 220px;
+        width: 391px;
+    }
+
+    #vid4 .playbtn{
+        margin-left: 170px;
+        margin-top: -165px;
+    }
+
+    .imgplaybtn{
+        width: 65px;
+    }
+
+    #vid4 .forwardbtn{
+        margin-left: 260px;
+        margin-top: -160px;
+    }
+
+    .ui-button{
+        margin-left: 400px;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    ul li a{
+        font-size: 12px;
+    }
+
+    ul li:nth-child(1){
+        margin-left: 0px;
+    }
+
+    h1{
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 10px;
+        width: 180px;
+    }
+
+    .trailerbutton{
+        width: 70px;
+        margin-top: 170px;
+    }
+
+    .trailerfont{
+        margin-top: 140px;
+        position: absolute;
+        margin-left: 50px;
+    }
+
+    #vid1{
+        width: 249px;
+        height: 140px;
+        margin-left: 21vw;
+    }
+
+    .my-video1-dimensions{
+        width: 249px;
+        height: 140px;
+    }
+
+    #vid3{
+        width: 249px;
+        height: 140px;
+        margin-left: 21vw;
+        margin-top: 330px;
+    }
+
+    .my-video3-dimensions{
+        width: 249px;
+        height: 140px;
+    }
+
+    #vid2{
+        width: 356px;
+        height: 200px;
+        margin-left: 10vw;
+        margin-top: 160px;
+    }
+
+    .my-video2-dimensions{
+        width: 356px;
+        height: 200px;
+    }
+
+    .playbtn{
+        margin-left: 100px;
+        margin-top: -120px;
+    }
+
+    .forwardbtn{
+        margin-left: 175px;
+        margin-top: -107px;
+    }
+
+    #vid2 .playbtn{
+        margin-left: 150px;
+        margin-top: -150px;
+    }
+
+    #vid2 .forwardbtn{
+        margin-left: 230px;
+        margin-top: -140px;
+    }
+
+    .imgplaybtn{
+        width: 60px;
+    }
+    
+    .imgforwardbtn{
+        width: 40px;
+    }
+
+    .pmain{
+        margin-top: 10px;
+        margin-left: 16vw;
+    }
+
+    #btnmain{
+        margin-left: 35vw;
+    }
+
+    main{
+        height: 750px;
+    }
+
+    .tabsvak{
+        padding-left: 5vw;
+    }
+
+    .pright{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    #vid4{
+        margin-left: 5vw;
+    }
+
+    .ui-button{
+        margin-left: 380px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .h2main{
+        font-size: 10px;
+    }
+
+    .h1main{
+        font-size: 13px;
+        margin-left: 2vw;
+    }
+
+    h2{
+        font-size: 10px;
+    }
+
+    h1{
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    p{
+        width: 160px;
+    }
+
+    #vid1{
+        margin-left: 20vw;
+    }
+
+    #vid2{
+        margin-left: 7vw;
+    }
+
+    #vid3{
+        margin-left: 20vw;
+    }
+
+    .pmain{
+        margin-left: 14.5vw;
+    }
+
+    #btnmain{
+        margin-left: 36vw;
+    }
+
+    .h1footer{
+        font-size: 15px;
+    }
+
+    .tabsvak{
+        padding-left: 8vw;
+    }
+
+    #tabs{
+        width: 350px;
+    }
+
+    .ui-tabs ul li{
+        margin-left: 25px;
+        width: 100px;
+        padding-top: 15px;
+    }
+
+    .lefttext{
+        width: 160px;
+    }
+
+    .pleft{
+        width: 160px;
+        font-size: 12px;
+    }
+
+    .righttext{
+        width: 160px;
+        font-size: 12px;
+    }
+
+    .pright{
+        width: 160px;
+    }
+
+    #vid4{
+        height: 190px;
+        width: 338px;
+        margin-left: 9vw;
+    }
+
+    .my-video4-dimensions{
+        height: 190px;
+        width: 338px;
+    }
+
+    #vid4 .playbtn{
+        margin-left: 147px;
+        margin-top: -145px;
+    }
+
+    #vid4 .forwardbtn{
+        margin-left: 225px;
+        margin-top: -140px;
+    }
+
+    .ui-button{
+        margin-left: 350px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .logo{
+        margin-left: 0vw;
+    }
+
+    @keyframes crescendo {
+        0%   {transform: scale(.4);}
+        100% {transform: scale(.7);}
+      }
+
+    .h1main{
+        width: 320px;
+        margin-left: 10vw;
+    }
+
+    #vid2{
+        margin-left: 5vw;
+    }
+
+    #vid1{
+        margin-left: 18vw;
+    }
+
+    #vid3{
+        margin-left: 18vw;
+    }
+
+    .pmain{
+        margin-left: 12vw;
+    }
+
+    #btnmain{
+        margin-left: 34vw;
+    }
+
+    .tabsvak{
+        padding-left: 6vw;
+    }
+
+    .h1footer{
+        margin-left: 15vw;
+    }
+
+    .loginicon{
+        width: 15px;
+        margin-top: -4px;
+        margin-right: 5px;
+    }
+
+    ul li:nth-child(4){
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 385px){
+    #vid1{
+        margin-left: 17vw;
+        margin-top: 30px;
+    }
+
+    #vid3{
+        margin-left: 17vw;
+        margin-top: 285px;
+    }
+
+    #vid2{
+        width: 320px;
+        height: 180px;
+        margin-left: 8vw;
+        margin-top: 130px;
+    }
+
+    .my-video2-dimensions{
+        width: 320px;
+        height: 180px;
+    }
+
+    #vid2 .playbtn{
+        margin-left: 133px;
+        margin-top: -140px;
+    }
+
+    #vid2 .forwardbtn{
+        margin-left: 210px;
+        margin-top: -130px;
+    }
+
+    .pmain{
+        margin-top: -40px;
+        margin-left: 11.5vw;
+    }
+
+    .h1main{
+        margin-left: 8vw;
+    }
+
+    .h2main{
+        margin-left: 15vw;
+        width: 280px;
+    }
+
+    .tabsvak{
+        padding-left: 8vw;
+    }
+
+    #tabs{
+        width: 320px;
+    }
+
+    .ui-tabs ul li{
+        margin-left: 10px;
+        width: 100px;
+        padding-top: 15px;
+    }
+
+    .lefttext{
+        width: 165px;
+    }
+
+    .pleft{
+        width: 165px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .righttext{
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .pright{
+        width: 120px;
+        line-height: 30px;
+    }
+
+    .checkmark{
+        margin-top: 27px;
+    }
+
+    .checkmark2{
+        margin-top: 30px;
+    }
+
+    .ui-tabs-panel{
+        height: 420px;
+    }
+
+    footer{
+        height: 670px;
+    }
+
+    .h1footer{
+        margin-left: 13vw;
+        padding-top: 50px;
+        width: 280px;
+    }
+
+    @keyframes crescendo {
+        0%   {transform: scale(.2);}
+        100% {transform: scale(.5);}
+      }
+
+    .logo{
+        width: 100px;
+        margin-top: 25px;
+    }
+
+    .trailerfont{
+        font-size: 12px;
+    }
+
+    #vid4{
+        margin-left: 5vw;
+    }
+
+    .ui-button{
+        margin-left: 330px;
+    }
+}
+
+@media only screen and (max-width: 365px){
+    #vid4{
+        height: 170px;
+        width: 302px;
+        margin-left: 8vw;
+    }
+
+    .my-video4-dimensions{
+        height: 170px;
+        width: 302px;
+    }
+
+    #vid4 .playbtn{
+        margin-left: 130px;
+        margin-top: -130px;
+    }
+
+    .imgplaybtn{
+        width: 55px;
+    }
+
+    .imgforwardbtn{
+        width: 35px;
+    }
+
+    #vid4 .forwardbtn{
+        margin-left: 210px;
+        margin-top: -125px;
+    }
+
+    .ui-button{
+        margin-left: 300px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    p{
+        width: 140px;
+    }
+    
+    h1{
+        width: 140px;
+    }
+
+    .h1main{
+        width: 200px;
+        margin-left: 24vw;
+    }
+
+    #vid2{
+        height: 160px;
+        width: 286px;
+        margin-left: 10vw;
+    }
+
+    .my-video2-dimensions{
+        height: 160px;
+        width: 286px;
+    }
+
+    #vid2 .playbtn{
+        margin-left: 113px;
+        margin-top: -130px;
+    }
+
+    #vid2 .forwardbtn{
+        margin-left: 190px;
+        margin-top: -120px;
+    }
+
+    #vid1{
+        margin-left: 15vw;
+    }
+
+    #vid3{
+        margin-left: 15vw;
+        margin-top: 265px;
+    }
+
+    .pmain{
+        width: 260px;
+        margin-left: 13vw;
+        margin-top: -60px;
+    }
+
+    main{
+        height: 720px;
+    }
+
+    .h1footer{
+        margin-left: 11vw;
+    }
+
+    .tabsvak{
+        padding-left: 8vw;
+    }
+
+    #tabs{
+        width: 290px;
+    }
+
+    .ui-tabs ul li{
+        margin-left: 25px;
+        width: 80px;
+        padding-top: 15px;
+    }
+
+    .ui-tabs ul li a{
+        font-size: 11px;
+    }
+
+    #ui-id-1{
+        margin-left: 25px;
+    }
+
+    #ui-id-2{
+        margin-left: 14px;
+    }
+
+    #ui-id-3{
+        margin-left: 14px;
+    }
+
+    .lefttext{
+        width: 150px;
+    }
+
+    .pleft{
+        width: 150px;
+        font-size: 10px;
+    }
+
+    .righttext{
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .pright{
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .logo{
+        margin-left: -10px;
+    }
+
+    ul li a{
+        font-size: 10px;
+    }
+
+    h2{
+        width: 80px;
+        line-height: 17px;
+        margin-top: 0px;
+    }
+
+    .trybtn{
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+
+    h1{
+        width: 130px;
+        font-size: 12px;
+    }
+
+    p{
+        width: 130px;
+    }
+
+    .h2main{
+        margin-top: 30px;
+        margin-left: 15vw;
+        font-size: 9px;
+        width: fit-content;
+    }
+
+    .h1main{
+        margin-left: 20vw;
+    }
+
+    #vid1{
+        margin-left: 13vw;
+    }
+
+    #vid3{
+        margin-left: 13vw;
+    }
+
+    #vid2{
+        margin-left: 8vw;
+    }
+
+    .pmain{
+        margin-left: 12vw;
+    }
+
+    #btnmain{
+        margin-left: 37vw;
+    }
+
+    .h1footer{
+        font-size: 12px;
+        margin-left: 17vw;
+        width: fit-content;
+    }
+
+    .tabsvak{
+        padding-left: 6vw;
+    }
+}
+
+@media only screen and (max-width: 340px){
+    #vid4{
+        margin-left: 5vw;
+    }
+
+    .ui-button{
+        margin-left: 290px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .h2main{
+        margin-left: 12vw;
+    }
+
+    #vid1{
+        margin-left: 11vw;
+    }
+
+    #vid3{
+        margin-left: 11vw;
+    }
+
+    #vid2{
+        margin-left: 5vw;
+    }
+
+    .pmain{
+        width: 230px;
+        margin-left: 13vw;
+    }
+
+    .h1footer{
+        margin-left: 14vw;
+    }
+
+    .tabsvak{
+        padding-left: 4vw;
+    }
+
+    #vid4{
+        margin-left: 3vw;
+    }
+
+    .ui-button{
+        margin-left: 280px;
+    }
+}

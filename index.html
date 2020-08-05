@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta (charset="UTF-8")>
+        <title>Netflix home</title>
+        <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <img class="logo" src="assets/logo.png" alt="netflix logo">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="login"><img src="assets/login.svg" alt="login icon" class="loginicon">LOGIN</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+            <div class="left">
+                <h2>A NETFLIX ORIGINAL</h2>
+                <h1>Something strange is happening in Hawkins</h1>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.</p>
+                <a href="#" class="trybtn">TRY FREE</a>
+            </div>
+            <div class="right">
+                <a href="#" id="modalbtn"><img class="trailerbutton" src="assets/Play.svg" alt="playbutton"></a>
+                <div id="dialog">
+                    <div class="vids" id="vid4">
+                        <video controls
+                            id="my-video4"
+                            class="video-js"
+                            preload="auto"
+                            width="900px"
+                            poster="img/stranger-2.jpg"
+                            data-setup="{}"
+                        >
+                            <source src="https://player.vimeo.com/external/435694913.sd.mp4?s=de74f7b1d4820b3c493b9a8405b9a7dfd733d391&profile_id=165">
+                            <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank"
+                                >supports HTML5 video</a
+                            >
+                            </p>
+                        </video>
+                        <div class="vidbtns">
+                        <a href="#" class="playbtn" id="play"><img class="imgplaybtn" src="assets/Play.svg"></a>
+                        <a href="#" id="forward" class="forwardbtn"><img class="imgforwardbtn" src="assets/forward.svg"></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="trailerfont">WATCH TRAILER</p>
+                <div class="clear"></div>
+            </div>
+        </header>
+
+        <main>
+            <h2 class="h2main">STOP DOING STUFF, START WATCHING</h2>
+            <h1 class="h1main">200+ of the best shows, waiting to be watched</h1>
+            <div class="videovak">
+                <div class="vids" id="vid1">
+                    <video controls
+                        id="my-video1"
+                        class="video-js"
+                        preload="auto"
+                        width="536px"
+                        poster="img/irishman.jpg"
+                        data-setup="{}"
+                    >
+                        <source src="https://player.vimeo.com/external/435456507.sd.mp4?s=3c1ae12b507cff09bab3825363b4f45115bfd9ee&profile_id=165">
+                        <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a
+                        web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank"
+                            >supports HTML5 video</a
+                        >
+                        </p>
+                    </video>
+                    <div class="vidbtns">
+                    <a href="#" id="play" class="playbtn"><img class="imgplaybtn" src="assets/Play.svg"></a>
+                    <a href="#" id="forward" class="forwardbtn"><img class="imgforwardbtn" src="assets/forward.svg"></a>
+                    </div>
+                </div>
+                <div class="vids" id="vid3">
+                    <video controls
+                        id="my-video3"
+                        class="video-js"
+                        preload="auto"
+                        width="536px"
+                        poster="img/ozark.jpg"
+                        data-setup="{}"
+                    >
+                        <source src="https://player.vimeo.com/external/435458185.sd.mp4?s=2a37e07117c3ddd4f9cbb6c810d90c54f4ea1749&profile_id=164">
+                        <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a
+                        web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank"
+                            >supports HTML5 video</a
+                        >
+                        </p>
+                    </video>
+                    <div class="vidbtns">
+                    <a href="#" id="play" class="playbtn"><img class="imgplaybtn" src="assets/Play.svg"></a>
+                    <a href="#" id="forward" class="forwardbtn"><img class="imgforwardbtn" src="assets/forward.svg"></a>
+                    </div>
+                </div>
+                <div class="vids" id="vid2">
+                    <video controls
+                        id="my-video2"
+                        class="video-js"
+                        preload="auto"
+                        width="720px"
+                        poster="img/dark.jpg"
+                        data-setup="{}"
+                    >
+                        <source src="https://player.vimeo.com/external/435441132.sd.mp4?s=26f82038e36c5ff9852520def245b15a5e189564&profile_id=165">
+                        <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a
+                        web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank"
+                            >supports HTML5 video</a
+                        >
+                        </p>
+                    </video>
+                    <div class="vidbtns">
+                    <a href="#" class="playbtn" id="play"><img class="imgplaybtn" src="assets/Play.svg"></a>
+                    <a href="#" id="forward" class="forwardbtn"><img class="imgforwardbtn" src="assets/forward.svg"></a>
+                    </div>
+                </div>
+
+            </div>
+            <p class="pmain">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.</p>
+            <a href="#" class="trybtn" id="btnmain">TRY FREE</a>
+        </main>
+
+        <footer>
+            <h1 class="h1footer">Choose the plan that’s right for you</h1>
+            <div class="tabsvak">
+            <div id="tabs">
+                <ul>
+                  <li><a href="#tabs-1">Basic</a></li>
+                  <li><a href="#tabs-2">Standard</a></li>
+                  <li><a href="#tabs-3">Premium</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <div class="lefttext">
+                        <p class="pleft">Monthly price</p> 
+                        <p class="pleft">Video quality</p>  
+                        <p class="pleft">Resolution</p> 
+                        <p class="pleft">Screens</p> 
+                        <p class="pleft">Unlimited films and TV</p> 
+                        <p class="pleft">Cancel at any time</p> 
+                    </div>
+                    <div class="righttext">
+                        <p class="pright">&#8364 8,99</p>
+                        <p class="pright">Basic</p>
+                        <p class="pright">4K+HDR</p>
+                        <p class="pright">2</p>
+                        <img src="assets/cross.svg" alt="cross" class="checkmark">
+                        <div class="clear"></div>
+                        <img src="assets/cross.svg" alt="cross" class="checkmark2">
+                    </div>
+                        <div class="clear"></div>                
+                </div>
+                <div id="tabs-2">
+                    <div class="lefttext">
+                        <p class="pleft">Monthly price</p> 
+                        <p class="pleft">Video quality</p>  
+                        <p class="pleft">Resolution</p> 
+                        <p class="pleft">Screens</p> 
+                        <p class="pleft">Unlimited films and TV</p> 
+                        <p class="pleft">Cancel at any time</p> 
+                    </div>
+                    <div class="righttext">
+                        <p class="pright">&#8364 10,99</p>
+                        <p class="pright">Standard</p>
+                        <p class="pright">4K+HDR</p>
+                        <p class="pright">3</p>
+                        <img src="assets/cross.svg" alt="cross" class="checkmark">
+                        <div class="clear"></div>
+                        <img src="assets/checkmark.svg" alt="checkmark" class="checkmark2">
+                    </div>
+                        <div class="clear"></div>                
+                </div>
+                <div id="tabs-3">
+                    <div class="lefttext">
+                        <p class="pleft">Monthly price</p> 
+                        <p class="pleft">Video quality</p>  
+                        <p class="pleft">Resolution</p> 
+                        <p class="pleft">Screens</p> 
+                        <p class="pleft">Unlimited films and TV</p> 
+                        <p class="pleft">Cancel at any time</p> 
+                    </div>
+                    <div class="righttext">
+                        <p class="pright">&#8364 13,99</p>
+                        <p class="pright">Best</p>
+                        <p class="pright">4K+HDR</p>
+                        <p class="pright">4</p>
+                        <img src="assets/checkmark.svg" alt="checkmark" class="checkmark">
+                        <div class="clear"></div>
+                        <img src="assets/checkmark.svg" alt="checkmark" class="checkmark2">
+                    </div>
+                        <div class="clear"></div>
+                </div>
+              </div>
+              </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://vjs.zencdn.net/7.8.3/video.js"></script>
+        <script>
+            $( "#tabs" ).tabs();
+
+            var widthh = $(window).width();
+            var heightt = $(window).height();
+
+            $( "#dialog" ).dialog({
+                autoOpen : false,
+                modal : true, 
+                show : "puff", 
+                hide : "puff",
+                width : widthh,
+                height : heightt,
+                fluid: true,
+                closeText: 'X',
+                dialogClass: "no-close",
+                dialogClass: 'ui-dialog-osx',
+                create: function (event) {
+                    $(event.target).parent().css('position', 'fixed'); 
+                },
+                resizeStart: function (event) {
+                    $(event.target).parent().css('position', 'fixed'); 
+                },
+                resizeStop: function (event) {
+                    $(event.target).parent().css('position', 'fixed'); 
+                },
+            });
+
+            $("#modalbtn").click(function() {
+                $("#dialog").dialog("open");
+                return false;
+            });
+
+        $("video").each(function(){
+
+        var player = videojs(this.id, {
+        });
+
+        let geklikt = true;
+        let klikt = true;
+        let klikkie = true;
+        var thisplay = $(this).parent().parent().find(".playbtn");
+        var btnimg = $(this).parent().parent().find(".playbtn").children();
+        var posvid = $(this).parent().parent();
+        var thisforward = $(this).parent().parent().find(".forwardbtn");
+        var knoppen = $(this).parent().parent().find(".vidbtns");
+
+        $("#modalbtn").click(function() {
+            event.preventDefault();
+            if(!klikkie){
+                klikkie = true;
+                $("video:nth-child(4)").pause();
+            } else{
+                klikkie = false;
+                $("video:nth-child(4)").play();
+                $("video:nth-child(4)").siblings().pause();
+            }
+        });
+        
+        posvid.click(function(event){
+            event.preventDefault();
+            if(!klikt){
+                klikt = true;
+                posvid.css("z-index", function(i, val) {
+                    return parseInt(val, 2) - 1;
+                });
+            } else{
+                klikt = false;
+                posvid.css('z-index', 6);
+                posvid.siblings().css('z-index', 4);
+            }
+        });
+
+            player.ready(function(){
+                thisplay.click(function(event){
+                event.preventDefault();
+                if(!geklikt){
+                    player.pause();
+                    geklikt = true;
+                    btnimg.attr('src','/assets/Play.svg');
+                    thisforward.css('display', 'none');
+                } else{
+                    player.play();
+                    geklikt = false;
+                    btnimg.attr('src','/assets/pause.svg');
+                    thisforward.css('display', 'inline-block');
+                }
+                });
+
+                function myFunction(x) {
+                    if (x.matches) {
+                        knoppen.css('display', 'inline-block');
+                        thisplay.css('display', 'inline-block');
+                    } else {
+                        posvid.hover(function () {
+                            knoppen.css('display', 'inline-block');
+                        }, 
+                        function () {
+                            knoppen.css('display', 'none');
+                        });
+                    }
+                }
+
+                var x = window.matchMedia("(max-width: 499px)")
+                myFunction(x)
+                x.addListener(myFunction)
+
+                player.on('timeupdate', function(){
+                var duration = player.duration();
+                var time = player.currentTime();
+                console.log(time);
+                if (time>=duration){
+                    btnimg.attr('src','/assets/Play.svg');
+                    thisforward.css('display', 'none');
+                }
+                });
+
+                $(thisforward).click(function(event){
+                event.preventDefault();
+                player.currentTime(player.currentTime() + 10);
+                });
+            });
+        });
+        </script>
+    </body>
+</html>
